@@ -6,61 +6,104 @@ body {
 
 /* Navbar here */
 
-.navbar {
-  display: grid;
-  height: 100px;
-  grid-template-columns: 30% 50% 20%;
-  background-color: #202020;
+/* Main vid here */
+
+.video_big {
+  width: 50%;
 }
 
-.grid-item {
-  padding-top: 20px;
-}
-
-.grid-item1 img {
-  width: 150px;
-  margin-left: 100px;
-}
-
-.grid-item2 {
-  padding-top: 30px;
-}
-
-.grid-item2 input {
-  width: 500px;
-  height: 30px;
-  background-color: #000000;
-  color: #a4a4a4;
-  border: 0.5px solid #3c3c3c;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-}
-
-.grid-item2 button {
-  width: 60px;
-  height: 35px;
-  background-color: #3c3c3c;
-  border: none;
-  text-decoration: none;
-}
-
-.grid-item2 button img {
-  width: 15px;
-  height: 15px;
-}
-
-.grid-item3 img {
-  width: 20px;
-  padding-right: 30px;
+.video_big {
+  padding-left: 100px;
   padding-top: 15px;
 }
 
-.main-content {
-  width: 100%;
-  display: flex;
+.main-text h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
-/* Main vid here */
+.main-text p {
+  color: #a4a4a4;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.social-bar {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 40% 60%;
+}
+
+.social-bar_icons {
+  display: flex;
+  grid-template-columns: repeat(3, 4fr);
+  padding-top: 15px;
+}
+
+.icon img {
+  display: inline-block;
+}
+
+.icon p {
+  display: inline-block;
+}
+
+.social-bar_icons p {
+  text-decoration: none;
+  color: #a4a4a4;
+  margin-left: 10px;
+}
+
+.social-bar img {
+  width: 20px;
+}
+
+.bottom-text_p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.avatar {
+  display: grid;
+  grid-template-columns: 10% 30% 60%;
+  padding-top: 15px;
+}
+
+.avatar img {
+  border-radius: 50%;
+}
+
+.avatar-item2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.avatar-item2 p {
+  margin: 0;
+}
+
+.avatar-item2 h1 {
+  margin: 0;
+}
+
+.avatar-item3 button {
+  float: right;
+  background-color: #cc0000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 20px;
+  border: none;
+  width: 105px;
+  heigth: 40px;
+}
+
+.avatar p {
+  padding: 10px;
+}
 
 /* Side bar here */
