@@ -29,7 +29,7 @@ body {
 .grid-item2 input {
   width: 500px;
   height: 30px;
-  background-color: #000000;
+  background-color: #000;
   color: #a4a4a4;
   border: 0.5px solid #3c3c3c;
   font-family: "Roboto", sans-serif;
@@ -45,15 +45,15 @@ body {
   text-decoration: none;
 }
 
-.grid-item2 button img {
-  width: 15px;
-  height: 15px;
-}
-
 .grid-item3 img {
   width: 20px;
   padding-right: 30px;
   padding-top: 15px;
+}
+
+.grid-item2 button img {
+  width: 15px;
+  height: 15px;
 }
 
 .main-content {
@@ -69,19 +69,23 @@ body {
   margin-top: 15px;
   padding-left: 100px;
 }
+
 .thumbnail {
   width: 100%;
   display: flex;
   padding-bottom: 5px;
 }
+
 .thumbnail-text {
   padding-left: 10px;
 }
+
 .thumbnail-text h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 1em;
 }
+
 .thumbnail-text p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
