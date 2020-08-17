@@ -9,3 +9,26 @@ body {
 /* Main vid here */
 
 /* Side bar here */
+.sidebar {
+  width: 40%;
+  margin-top: 15px;
+  padding-left: 100px;
+}
+.thumbnail {
+  width: 100%;
+  display: flex;
+  padding-bottom: 5px;
+}
+.thumbnail-text {
+  padding-left: 10px;
+}
+.thumbnail-text h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+}
+.thumbnail-text p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 0.7em;
+}
