@@ -6,6 +6,61 @@ body {
 
 /* Navbar here */
 
+.navbar {
+  display: grid;
+  height: 100px;
+  grid-template-columns: 30% 50% 20%;
+  background-color: #202020;
+}
+
+.grid-item {
+  padding-top: 20px;
+}
+
+.grid-item1 img {
+  width: 150px;
+  margin-left: 100px;
+}
+
+.grid-item2 {
+  padding-top: 30px;
+}
+
+.grid-item2 input {
+  width: 500px;
+  height: 30px;
+  background-color: #000000;
+  color: #a4a4a4;
+  border: 0.5px solid #3c3c3c;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.grid-item2 button {
+  width: 60px;
+  height: 35px;
+  background-color: #3c3c3c;
+  border: none;
+  text-decoration: none;
+}
+
+.grid-item2 button img {
+  width: 15px;
+  height: 15px;
+}
+
+.grid-item3 img {
+  width: 20px;
+  padding-right: 30px;
+  padding-top: 15px;
+}
+
+.main-content {
+  width: 100%;
+  display: flex;
+}
+
 /* Main vid here */
 
 /* Side bar here */
