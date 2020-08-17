@@ -6,29 +6,77 @@
   <body>
     <!-- Navbar here-->
     <header>
-      <nav class="navbar">
-        <div class="grid-item grid-item1">
-          <img class="logo" src="img/Youtubelogo.png" alt="logo" />
-        </div>
-
-        <div class="grid-item grid-item2">
-          <input type="text" name="search" placeholder="Search" />
-          <button type="button"><img src="img/search.png" /></button>
-        </div>
-
-        <div class="grid-item grid-item3">
-          <a href="https://www.youtube.com/" class="nav_links"
-            ><img src="img/notification.png" />
-          </a>
-          <a href="#" class="nav_links"><img src="img/camera.png" /></a>
-          <a href="#" class="nav_links"><img src="img/menu.png" /></a>
-        </div>
-      </nav>
+      <nav class="navbar"></nav>
     </header>
 
     <main class="main-content">
       <!-- Main video here -->
-      <section class="video_big"></section>
+      <section class="video_big">
+        <div class="main_video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/V74l_zS1x8E"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="main-text">
+          <h1>Contributing to Open Source Part I: The Easy Way</h1>
+          <div class="social-bar">
+            <div class="social-bar_text">
+              <p>59,487 views • Feb 27, 2014</p>
+            </div>
+
+            <div class="social-bar_icons">
+              <div class="icon like">
+                <img src="img/like.png" />
+                <p>440</p>
+              </div>
+
+              <div class="icon dislike">
+                <img src="img/dislike.png" />
+                <p>19</p>
+              </div>
+
+              <div class="icon share">
+                <img src="img/share.png" />
+                <p>Share</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr style="width: 100%; background-color: gray; height: 0.3px;" />
+
+        <div class="bottom-text">
+          <div class="avatar">
+            <div class="avatar-item1">
+              <img src="img/avatar.jpg" alt="avatar image" />
+            </div>
+            <div class="avatar-item2">
+              <h1>The Odin Project</h1>
+              <p>1.01K subscribers</p>
+            </div>
+            <div class="avatar-item3">
+              <button type="button">Subscribe</button>
+            </div>
+          </div>
+          <p class="bottom-text_p">
+            How do you contribute to open source? In this video, I'll describe
+            the easiest way to make a simple contribution to an open source
+            project -- without using the command line, a text editor, "forking a
+            repo", or even touching Git outside of Github. I'll also describe
+            what kinds of contributions open source software projects are
+            typically looking for. As an example, I use submitting a student
+            solution to a web development exercise from The Odin Project, a free
+            online curriculum for learning web development with Ruby on Rails.
+            You can find more information about that project at
+            http://theodinproject.com.
+          </p>
+        </div>
+      </section>
       <!-- Side bar here -->
       <section class="sidebar"></section>
     </main>
