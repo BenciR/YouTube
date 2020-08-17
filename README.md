@@ -1,7 +1,7 @@
 # YouTube
 
 > This project consists of building an HTML document that matches the appearance of youtube video player page.
-> ![screenshot](./sidebar-screenshot.png)
+> ![screenshot](./sidebar-screenshot.PNG)
 > Additional description about the project and its features.
 
 ## Built With
