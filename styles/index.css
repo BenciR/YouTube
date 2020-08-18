@@ -6,6 +6,171 @@ body {
 
 /* Navbar here */
 
+.navbar {
+  display: grid;
+  height: 100px;
+  grid-template-columns: 30% 50% 20%;
+  background-color: #202020;
+}
+
+.grid-item {
+  padding-top: 20px;
+}
+
+.grid-item1 img {
+  width: 150px;
+  margin-left: 100px;
+}
+
+.grid-item2 {
+  padding-top: 30px;
+}
+
+.grid-item2 input {
+  width: 500px;
+  height: 30px;
+  background-color: #000;
+  color: #a4a4a4;
+  border: 0.5px solid #3c3c3c;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.grid-item2 button {
+  width: 60px;
+  height: 35px;
+  background-color: #3c3c3c;
+  border: none;
+  text-decoration: none;
+}
+
+.grid-item3 img {
+  width: 20px;
+  padding-right: 30px;
+  padding-top: 15px;
+}
+
+#img-btn {
+  width: 15px;
+  height: 15px;
+}
+
+.main-content {
+  width: 100%;
+  display: flex;
+}
+
 /* Main vid here */
+.video_big {
+  width: 50%;
+  padding-left: 100px;
+  padding-top: 15px;
+}
+
+.main-text h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.main-text p {
+  color: #a4a4a4;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.social-bar {
+  display: flex;
+}
+
+.social-bar_text {
+  flex: 1;
+}
+
+.social-bar_icons {
+  flex: 2;
+  padding-left: 30px;
+}
+
+.bottom-text {
+  border-top: thin solid;
+  border-color: white;
+}
+
+.bottom-text_p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.avatar {
+  display: grid;
+  grid-template-columns: 10% 30% 60%;
+  padding-top: 15px;
+}
+
+.avatar img {
+  border-radius: 50%;
+}
+
+.avatar-item2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.avatar-item2 p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.avatar-item2 h1 {
+  margin: 0;
+}
+
+.avatar-item3 button {
+  float: right;
+  background-color: #750000;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 15px;
+  border: none;
+  width: 100px;
+  height: 40px;
+}
+
+.avatar p {
+  padding: 10px;
+}
 
 /* Side bar here */
+.sidebar {
+  width: 40%;
+  margin-top: 15px;
+  padding-left: 100px;
+}
+
+.thumbnail {
+  width: 100%;
+  display: flex;
+  padding-bottom: 5px;
+}
+
+.thumbnail-text {
+  padding-left: 10px;
+  color: #fff;
+}
+
+.thumbnail-text h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.thumbnail-text p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 0.7em;
+}
