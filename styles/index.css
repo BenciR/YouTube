@@ -88,16 +88,9 @@ body {
   flex: 1;
 }
 
-.social-bar_icons{
+.social-bar_icons {
   flex: 2;
   padding-left: 30px;
-}
-
-
-
-.social-bar_icons {
-  width: 30px;
-  height: 15px;
 }
 
 .bottom-text {
@@ -139,9 +132,8 @@ body {
 
 .avatar-item3 button {
   float: right;
-  background-color:   #750000;
-  font-family: Roboto;
-  
+  background-color: #750000;
+  font-family: "Roboto", sans-serif;
   color: white;
   font-size: 15px;
   border: none;
