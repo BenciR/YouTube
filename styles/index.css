@@ -51,7 +51,7 @@ body {
   padding-top: 15px;
 }
 
-.grid-item2 button img {
+#img-btn {
   width: 15px;
   height: 15px;
 }
@@ -62,6 +62,103 @@ body {
 }
 
 /* Main vid here */
+.video_big {
+  width: 50%;
+}
+
+.video_big {
+  padding-left: 100px;
+  padding-top: 15px;
+}
+
+.main-text h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.main-text p {
+  color: #a4a4a4;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.social-bar {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 40% 60%;
+}
+
+.social-bar_icons {
+  display: flex;
+  grid-template-columns: repeat(3, 4fr);
+  padding-top: 15px;
+}
+
+.icon img {
+  display: inline-block;
+}
+
+.icon p {
+  display: inline-block;
+}
+
+.social-bar_icons p {
+  text-decoration: none;
+  color: #a4a4a4;
+  margin-left: 10px;
+}
+
+.social-bar img {
+  width: 20px;
+}
+
+.bottom-text_p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.avatar {
+  display: grid;
+  grid-template-columns: 10% 30% 60%;
+  padding-top: 15px;
+}
+
+.avatar img {
+  border-radius: 50%;
+}
+
+.avatar-item2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.avatar-item2 p {
+  margin: 0;
+}
+
+.avatar-item2 h1 {
+  margin: 0;
+}
+
+.avatar-item3 button {
+  float: right;
+  background-color: #cc0000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 20px;
+  border: none;
+  width: 105px;
+  height: 40px;
+}
+
+.avatar p {
+  padding: 10px;
+}
 
 /* Side bar here */
 .sidebar {
@@ -78,6 +175,7 @@ body {
 
 .thumbnail-text {
   padding-left: 10px;
+  color: #fff;
 }
 
 .thumbnail-text h1 {
