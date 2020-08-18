@@ -64,9 +64,6 @@ body {
 /* Main vid here */
 .video_big {
   width: 50%;
-}
-
-.video_big {
   padding-left: 100px;
   padding-top: 15px;
 }
@@ -146,7 +143,7 @@ body {
 
 .avatar-item3 button {
   float: right;
-  background-color: #cc0000;
+  background-color: #c00;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: white;
